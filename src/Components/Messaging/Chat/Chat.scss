@@ -1,0 +1,92 @@
+.mobile-back {
+  float: left;
+}
+.mobile-back img {
+  width: 32px;
+}
+.img-left {
+  float: left;
+  width: 32px;
+}
+.img-right {
+  float: right;
+  width: 32px;
+}
+.input {
+  border-top: 1px solid lightgray;
+  height: 80px;
+}
+.input .rent,
+.input .attach {
+  float: left;
+  width: 150px;
+  border: 1px solid lightgray;
+  border-top: 0;
+  padding: 10px;
+}
+.input .rent {
+  border-left: 0;
+}
+.input input {
+  border: none;
+  padding: 10px 10px 10px 30px;
+  background: #fff;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  border-bottom: 1px solid lightgray;
+}
+.messageBox {
+  padding: 10px;
+  height: calc(100% - 161px);
+  overflow-y: scroll;
+  background-color: #eaf4f4;
+  width: 100%;
+}
+.user-info {
+  float: left;
+  text-align: left;
+}
+.topbar {
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  height: 60px;
+}
+.topbar img {
+  width: 32px;
+  float: left;
+}
+.topbar .user-text {
+  float: left;
+  margin-left: 10px;
+}
+.user-advert {
+  font-size: 12px;
+}
+.message-wrapper {
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.message {
+  display: block;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 8px;
+}
+.received {
+  margin-left: $chat-message-margin;
+  float: left;
+  background: $chat-received;
+}
+.sent {
+  float: right;
+  margin-right: $chat-message-margin;
+  color: #fff;
+  background: $chat-sent;
+}
+
+input.error{
+	background: $chat-error;
+}
